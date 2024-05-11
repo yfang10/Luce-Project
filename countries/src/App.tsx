@@ -1,3 +1,4 @@
+// Yue Fang-Andrew
 import React, { useState, useEffect } from "react";
 
 interface User {
@@ -7,20 +8,24 @@ interface User {
     first: string;
     last: string;
   };
+
   location: {
     street: {
       number: number;
       name: string;
     };
+
     city: string;
     state: string;
     country: string;
     postcode: number;
   };
+
   registered: {
     date: string;
     age: number;
   };
+
   phone: string;
   cell: string;
   id: {
@@ -28,10 +33,12 @@ interface User {
     value: string;
   };
 }
+
 interface CountryUsers {
   country: string;
   users: User[];
 }
+
 const App = () => {
   const [countries, setCountries] = useState<CountryUsers[]>([]);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);

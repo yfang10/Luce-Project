@@ -21,4 +21,4 @@ https://randomuser.me/api/?results=100
 - We expect this to take around 3 hours.
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The answer is in App.tsx.
+The answer is in .countries/App.tsx.
